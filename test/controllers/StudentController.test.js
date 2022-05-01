@@ -5,4 +5,9 @@ describe("Pruebas unitarias para StudentController", () => {
         const students = StudentController.getAllStudents();
         expect(students.length).toBe(51);
     });
+
+    test("Requerimiento 02: Habilitar un endpoint para consultar los emails de todos los estudiantes que tengan certificacion", () => {
+        const students = StudentController.getStudentsHaveCertification();
+        expect(students.length).toBe(51);
+    });
 });
