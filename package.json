@@ -1,0 +1,35 @@
+{
+  "name": "visual-thinking-api",
+  "version": "1.0.0",
+  "description": "Consiste en una API donde se mostrara una lista de estudiantes donde también se filtraran los emails de todos los estudiantes que tengan certificación `haveCertification` y que todos los estudiantes que tengan `credits` mayor a 500. El propósito es para una tarea de \"Code Challenge\" de la semana 4 del curso \"Backend Javascript\" de LaunchX, un programa de cursos impartido por \"Innovaccion Virtual\" de Microsoft.",
+  "main": "index.js",
+  "directories": {
+    "lib": "lib",
+    "test": "test"
+  },
+  "scripts": {
+    "start": "node index.js",
+    "test": "node ./node_modules/jest/bin/jest",
+    "linter": "node ./node_modules/eslint/bin/eslint.js",
+    "linter-fix": "node ./node_modules/eslint/bin/eslint.js . --fix"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/GerardoCabreraH/visual-thinking-api.git"
+  },
+  "keywords": [],
+  "author": "GerardoCabreraH",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/GerardoCabreraH/visual-thinking-api/issues"
+  },
+  "homepage": "https://github.com/GerardoCabreraH/visual-thinking-api#readme",
+  "dependencies": {
+    "express": "^4.18.1"
+  },
+  "devDependencies": {
+    "eslint": "^8.14.0",
+    "jest": "^26.0.0",
+    "supertest": "^6.2.3"
+  }
+}
