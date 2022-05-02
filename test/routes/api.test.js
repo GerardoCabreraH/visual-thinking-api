@@ -43,7 +43,7 @@ describe("Probar rutas del servidor", () => {
 
     test("Requerimiento 03: Habilitar un endpoint para consultar todos los estudiantes que tengan credits mayor a 500", (done) => {
         request(app)
-            .get("/v1/estudiantes/aprobados")
+            .get("/estudiantes/aprobados")
             .expect(200)
             .expect((res) => {
                 expect(res.body.length).toBe(27);
