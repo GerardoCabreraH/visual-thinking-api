@@ -7,6 +7,8 @@ Instalar dependencias NPM `npm install`
 
 ## Documentación del proyecto
 
+[Documentación de la api](https://github.com/GerardoCabreraH/visual-thinking-api/blob/main/docs/documentacion-api.md)
+
 ## Datos del autor
 - Gerardo Rafael Cabrera Herrera
 - [Github](https://github.com/GerardoCabreraH)
