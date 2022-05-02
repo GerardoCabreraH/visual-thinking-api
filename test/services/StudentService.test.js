@@ -17,6 +17,6 @@ describe("Pruebas unitarias para StudentService", () => {
     test("Requerimiento 03: Habilitar un endpoint para consultar todos los estudiantes que tengan credits mayor a 500", () => {
         const students = Reader.readJsonFile("./lib/data/visualpartners.json");
         const studentsList = StudentService.applyStudentsApprove(students);
-        expect(studentsList.length).toBe(29);
+        expect(studentsList.length).toBe(27);
     });
 });
