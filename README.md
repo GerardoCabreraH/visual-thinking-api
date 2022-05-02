@@ -5,7 +5,7 @@ Consiste en una API donde se mostrara una lista de estudiantes donde también se
 ## Instalación local
 Instalar dependencias NPM `npm install`
 
-## Wiki del proyecto
+## Documentación del proyecto
 
 ## Datos del autor
 - Gerardo Rafael Cabrera Herrera
