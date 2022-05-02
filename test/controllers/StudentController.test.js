@@ -10,4 +10,9 @@ describe("Pruebas unitarias para StudentController", () => {
         const students = StudentController.getStudentsHaveCertification();
         expect(students.length).toBe(29);
     });
+
+    test("Requerimiento 02: Habilitar un endpoint para consultar todos los estudiantes que tengan credits mayor a 500", () => {
+        const students = StudentController.getStudentsApprove();
+        expect(students.length).toBe(29);
+    });
 });
